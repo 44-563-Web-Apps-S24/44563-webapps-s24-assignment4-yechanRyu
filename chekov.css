@@ -1,5 +1,5 @@
-.speach{font-family: Arial; font-size: 15px; color:black}
+.speech{font-family: Arial; font-size: 15px; color:black}
 .dirction{font-family:monospace; font-size: 13px; color: black; background-color: lightcyan;}
-.dirction.hover{color:lightcyan; background-color: black;}
-.ASTROFF{color: lightsalmon;}
+.dirction:hover{color:lightcyan; background-color: black;}
+.ASTROFF{color: rgb(235, 79, 18);}
 .VOITSKI{color:lightgreen;}
