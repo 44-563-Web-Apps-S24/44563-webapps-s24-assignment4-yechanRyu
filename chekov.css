@@ -3,3 +3,9 @@
 .dirction:hover{color:lightcyan; background-color: black;}
 .ASTROFF{color: rgb(235, 79, 18);}
 .VOITSKI{color:lightgreen;}
+table{border-collapse:collapse;margin: 50px;}
+th{text-align: center; padding: 8px;}
+td{text-align: center;padding-left: 10px;padding-right: 10px;}
+table,th,td{border: 10px solid rgb(231, 157, 11); width:fit-content;height:100px;}
+tr:nth-child(even){background-color: yellowgreen;}
+tr:nth-child(odd){background-color: green;}
