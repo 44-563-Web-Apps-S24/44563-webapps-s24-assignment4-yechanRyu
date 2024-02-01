@@ -1,13 +1,35 @@
 .speech{font-family: Arial; font-size: 15px; color:black}
 .dirction{font-family:monospace; font-size: 13px; color: black; background-color: lightcyan;}
 .dirction:hover{color:lightcyan; background-color: black;}
-.ASTROFF{color: rgb(235, 79, 18);}
+.ASTROFF{color: rgb(235, 79, 18); display: flex; justify-content: center;}
 .ASTROFF:hover{text-shadow: 2px 2px 2px green; border: 1px; border-style: dotted;} 
-.VOITSKI{color:lightgreen;}
-.VOITSKI:hover{text-shadow: 2px 2px 2px red; border:1px; border-style: dotted; }
-table{border-collapse:collapse;margin: 50px;}
+.VOITSKI{color:lightgreen;justify-content: center;display: flex;}
+.VOITSKI:hover{text-shadow: 2px 2px 2px red; border:1px; border-style: dotted;}
+table{border-collapse:collapse;margin: 50px;margin-left: auto;margin-right: auto;}
 th{text-align: center; padding: 8px;}
 td{text-align: center;padding-left: 10px;padding-right: 10px;}
 table,th,td{border: 10px solid rgb(231, 157, 11); width:fit-content;height:100px;}
 tr:nth-child(even){background-color: yellowgreen;}
 tr:nth-child(odd){background-color: green;}
+ul.navbar-horizontal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    list-style-type: none;
+    }
+ul.navbar-horizontal li {
+    float:left; 
+    background-color:greenyellow
+    }
+ul.navbar-horizontal a {
+    display: inline-block;
+    padding:8px}
+ul.navbar-horizontal a:hover{
+    background-color: green;
+    color:white;
+}
+h1{justify-content: center; display: flex;}
+h5{font-size: large;justify-content: center; display: flex;}
+h6{font-size: large;justify-content: center; display: flex;}
+img{display: block;margin-left: auto;margin-right: auto; width: 450px; height: 450px;}
